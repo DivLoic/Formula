@@ -1,6 +1,33 @@
 # Formula
 
+
+## Angular cli
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
+
+You can find all possible blueprints in the table below:
+
+Scaffold  | Usage
+---       | ---
+Component | `ng g component my-new-component`
+Directive | `ng g directive my-new-directive`
+Pipe      | `ng g pipe my-new-pipe`
+Service   | `ng g service my-new-service`
+Class     | `ng g class my-new-class`
+Interface | `ng g interface my-new-interface`
+Enum      | `ng g enum my-new-enum`
+Module    | `ng g module my-module`
+
+Here is an exemple: `ng g component dashboard`
+
+```
+Visit http://ember-cli.com/user-guide/#watchman for more info.
+installing component
+  create src/app/dashboard/dashboard.component.css
+  create src/app/dashboard/dashboard.component.html
+  create src/app/dashboard/dashboard.component.spec.ts
+  create src/app/dashboard/dashboard.component.ts
+```
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
