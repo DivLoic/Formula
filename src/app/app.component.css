@@ -1,0 +1,18 @@
+nav{
+  margin-bottom: auto;
+}
+
+header,
+header div{
+  height: 150px;
+}
+
+header div.banner{
+  background: linear-gradient(45deg, #638398, #bcd5eb);
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 5%;
+  color: #ffffff
+}
