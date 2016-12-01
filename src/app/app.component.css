@@ -1,16 +1,17 @@
 nav{
+  border: none;
   margin-bottom: auto;
 }
-
+nav li a.active {
+  border-bottom: solid 0.5rem #638398;
+}
 header,
 header div{
   height: 150px;
 }
-
 header div.banner{
   background: linear-gradient(45deg, #638398, #bcd5eb);
 }
-
 header h1 {
   text-align: center;
   margin-top: 5%;

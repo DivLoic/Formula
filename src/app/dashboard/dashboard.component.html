@@ -15,7 +15,7 @@
       <ul class="ul-racers">
         <li *ngFor="let driver of topDrivers; let i = index;" class="li-racer"
         (click)="setDriver(driver)">
-          <div>{{i}}</div>{{driver.firstName}} {{driver.lastName}}
+          <div>{{i+1}}</div>{{driver.firstName}} {{driver.lastName}}
           <span>-- {{driver.points}}</span>
         </li>
       </ul>
