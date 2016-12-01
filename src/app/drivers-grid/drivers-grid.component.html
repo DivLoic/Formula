@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-1">
+      <h3>{{title}}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+          <td>First Name</td>
+          <td>Last Name</td>
+          <td>Team</td>
+          <td>Points</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let driver of allDrivers">
+          <td>{{driver.firstName}}</td>
+          <td>{{driver.lastName}}</td>
+          <td>{{driver.team.name}}</td>
+          <td>{{driver.points}}</td>
+        </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+</div>
