@@ -3,12 +3,12 @@ import { RouterModule, Routes }         from '@angular/router';
 import { DashboardComponent }           from './dashboard/dashboard.component';
 import { DriversGridComponent }         from "./drivers-grid/drivers-grid.component";
 import { ConstructorsGridComponent }    from "./constructors-grid/constructors-grid.component";
-import { CircuitMapComponent }          from "./circuit-map/circuit-map.component";
+import { CircuitsMapComponent }          from "./circuits-map/circuits-map.component";
 
 const routes: Routes = [
   { path: 'home', component: DashboardComponent },
   { path: 'drivers', component: DriversGridComponent },
-  { path: 'circuits', component: CircuitMapComponent },
+  { path: 'circuits', component: CircuitsMapComponent },
   { path: 'constructors', component: ConstructorsGridComponent },
   { path: 'db', component: DashboardComponent},
   //{ path: '' component: },

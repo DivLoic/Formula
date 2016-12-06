@@ -21,12 +21,20 @@ export class DriverService {
 
   url: string = "/driverStandings.json";
 
+  /**
+   * Select all drivers from from the standing-list of the current season <br/>
+   * @returns {Promise<void|T>}
+   */
   getDrivers(): Promise<Driver[]> {
     return this.http.get(this.url)
       .then(res => this.driverParser(res.json()))
       .catch(console.log);
   }
 
+  /**
+   * Select the five first driver from the standing-list of the current season <br/>
+   * @returns {Promise<void|T>}
+   */
   getTop5Drivers(): Promise<Driver[]> {
     return this.http.get(this.url + "?limit=5")
       .then(res => this.driverParser(res.json()))
